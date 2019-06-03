@@ -7,13 +7,6 @@
 
 }
 
-.row:nth-child(4){
-    /* background-color: #C29979 */
-}
-.row:nth-child(5){
-    /* background-color: #FCDC4D; */
-}
-
 /* Root level settings */
 body{
     background-image: url("https://images.unsplash.com/photo-1551334741-0f11da38e980?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2734&q=80");
@@ -40,10 +33,11 @@ i{
 /* Home Page CSS */
 /* Change the display 1 settins for the main page  */
 .home .display-1 {
-    font-size: 8vw;
+    font-size: 3.25rem;
     font-weight: 500;
     line-height: 1.2;
 }
+
 /* Background for rows 1 */
 .row:nth-child(2){
     height: 750px;
@@ -93,4 +87,33 @@ i{
     margin: 0 auto;
     height: auto;
     color: white;
+}
+
+
+/* Contact Me Form */
+/* H1 Styles */
+.contact-me h1.display-4{
+    margin: 0 auto;
+    height: auto;
+    color: white;
+}
+/* Background for contact me */
+.row:nth-child(5){
+    margin: 150px auto;
+}
+
+/* Footer  */
+/* */
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+footer .row{
+    height: fit-content;
+}
+footer{
+    margin: 30px auto;
 }
